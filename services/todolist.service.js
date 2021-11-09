@@ -11,7 +11,7 @@ class TodolistService{
             this.todolist.push({
                 id: faker.datatype.uuid(),
                 text: faker.address.city(),
-                complete: faker.datatype.boolean(),
+                completed: faker.datatype.boolean(),
             });
         }
     }
